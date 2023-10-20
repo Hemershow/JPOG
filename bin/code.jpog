@@ -1,0 +1,3 @@
+var batata 1;
+sepa (batata = 1);
+write("ricardo");

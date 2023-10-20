@@ -1,0 +1,43 @@
+128=write
+129=fim write
+130=for
+131=fim for
+132=if(condição)
+133=fim condicao
+134=fim if
+138=else
+139=else if(condicao)
+
+300=>
+301=>=
+302=<
+303=<= 
+304===
+305=!=
+306=&&
+307=||
+
+500=+
+501= usar resultado da operacao anterior
+
+
+400=declarar variavel 
+402=int
+403=string
+404=fim string
+405=proximo é o index da variavel
+407=operacao 
+408=fim operacao
+
+variavel
+400 402 24 0
+
+operacao
+407 402 15 500 402 16 501 500 402 3
+
+if 
+132 402 20 302 402 18 133
+    128 405 67 405 66 405 65 129
+134
+
+400, 402, 1, 0, 132, 405, 0, 304, 402, 1, 133, 
